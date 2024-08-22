@@ -1,0 +1,60 @@
+
+---
+
+## **.gitignore**
+
+Para um projeto que envolve SQL, você pode incluir arquivos comuns que não devem ser rastreados pelo Git. O `.gitignore` pode ser assim:
+
+```gitignore
+# Arquivos de configuração do MySQL
+*.sql
+*.db
+
+# Arquivos de log
+*.log
+
+# Diretórios de backup
+backup/
+Enunciado do Projeto
+Título: Projeto de Banco de Dados de Vendas
+Objetivo
+O objetivo deste projeto é criar e gerenciar um banco de dados utilizando comandos SQL básicos. O banco de dados simula um sistema de vendas de cursos, permitindo a criação de um banco de dados, definição de tabelas, inserção, consulta, atualização e exclusão de dados.
+
+Descrição
+O projeto envolve as seguintes etapas:
+
+Criação do Banco de Dados
+
+O banco de dados será chamado comandos_10.
+Criação da Tabela vendas
+
+A tabela deve armazenar informações sobre vendas, incluindo identificador da venda, nome do curso, aluno, estado e valor.
+Inserção de Dados
+
+Adicione vários registros à tabela vendas com informações fictícias.
+Consultas e Manipulação de Dados
+
+Realize consultas para visualizar, ordenar e filtrar os dados.
+Atualize e exclua dados conforme necessário.
+Exclua todos os dados da tabela quando necessário.
+Comandos SQL Utilizados
+CREATE DATABASE: Cria o banco de dados.
+USE: Seleciona o banco de dados para uso.
+CREATE TABLE: Define a estrutura da tabela.
+INSERT INTO: Adiciona registros à tabela.
+SELECT: Consulta os dados da tabela.
+ORDER BY: Ordena os resultados da consulta.
+WHERE: Filtra os resultados da consulta.
+UPDATE: Atualiza registros existentes.
+DELETE: Exclui registros específicos.
+TRUNCATE: Remove todos os registros da tabela.
+Resultados Esperados
+Após a execução dos comandos, você deverá ser capaz de:
+
+Criar e manipular um banco de dados e tabelas.
+Inserir e consultar dados de forma eficaz.
+Atualizar e excluir registros conforme necessário.
+Gerenciar os dados da tabela utilizando comandos SQL básicos.
+Entrega
+Envie o arquivo SQL contendo todos os comandos executados e o README.md detalhando o projeto e suas instruções.
+
